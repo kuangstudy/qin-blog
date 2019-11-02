@@ -13,13 +13,13 @@
         <!--登录注销-->
         <div class="right menu">
             <!--未登录-->
-            <a class="item" th:href="@{/toLogin}">
-                <i class="address card icon"></i> 登录
-            </a>
-            <!--已登录-->
-            <!--<a th:href="@{/usr/toUserCenter}" th:class="${active=='usercenter.html'?'active item':'item'}">-->
-                <!--<i class="address card icon"></i> 一级会员-->
+            <!--<a class="item" th:href="@{/toLogin}">-->
+                <!--<i class="address card icon"></i> 登录-->
             <!--</a>-->
+            <!--已登录-->
+            <a th:href="@{/usr/toUserCenter}" th:class="${active=='usercenter.html'?'active item':'item'}">
+                <i class="address card icon"></i> 一级会员
+            </a>
         </div>
     </div>
 </div>
