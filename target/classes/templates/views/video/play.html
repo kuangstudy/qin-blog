@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>播放</title>
+    <!--semantic-ui-->
+    <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link th:href="@{/qinjiang/css/qinstyle.css}" rel="stylesheet">
+</head>
+<body>
+
+
+<!--主容器-->
+<div class="ui container">
+
+    <div th:replace="~{/commons/common::nav-menu(active='video.html')}"></div>
+
+
+    <!--中间主体-->
+    <div class="ui segment">
+        <div class="content">
+            <h3 class="ui header" style="text-align: center">零基础学Java</h3>
+            <!--作者信息和创建时间-->
+            <div class="ui secondary  menu">
+                <a class="item">创建者：<span>狂神说</span></a>
+                <div class="right menu">
+                    <a class="ui item">创建时间：<span>2020-10-10</span></a>
+                </div>
+            </div>
+            <!--播放器内嵌：待完善-->
+            <div class="ui segment">
+                <iframe src="//player.bilibili.com/player.html?aid=68373450&cid=118499718&page=1"
+                        scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"
+                        high_quality=1
+                        width="100%"
+                        height="710px">
+                </iframe>
+            </div>
+
+            <div th:replace="~{/commons/common::appreciate-footer}"></div>
+
+        </div>
+    </div>
+
+    <div th:replace="~{/commons/common::common-footer}"></div>
+
+</div>
+
+
+<script th:src="@{/qinjiang/js/jquery-3.1.1.min.js}"></script>
+<script th:src="@{/qinjiang/js/semantic.min.js}"></script>
+<script>
+    $('.url.example .ui.embed').embed();
+</script>
+
+</body>
+</html>

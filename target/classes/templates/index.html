@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>首页</title>
+    <!--semantic-ui-->
+    <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link th:href="@{/qinjiang/css/qinstyle.css}" rel="stylesheet">
+</head>
+<body>
+
+<!--主容器-->
+<div class="ui container">
+
+    <div th:replace="~{/commons/common::nav-menu(active='index.html')}"></div>
+
+    <!--中间主体-->
+    <!--可关闭的广告栏-->
+    <!--<div class="ui mini yellow message">-->
+        <!--<i class="close icon"></i>-->
+        <!--这是一个特殊的通知，如果不喜欢你可以删掉。-->
+    <!--</div>-->
+
+    <div class="ui grid">
+        <div class="row">
+            <!--学习路线-->
+            <div class="thirteen wide column">
+                <div>
+                    <h3 class="ui header">
+                        <div class="content">
+                            | 狂神说Java进阶路线
+                            <i class="space shuttle icon"></i>
+                        </div>
+                    </h3>
+                </div>
+
+                <div class="ui top attached tabular menu">
+                    <a class="item active" data-tab="first">阶段一</a>
+                    <a class="item" data-tab="second">阶段二</a>
+                    <a class="item" data-tab="third">阶段三</a>
+                    <a class="item" data-tab="four">阶段四</a>
+                    <a class="item" data-tab="five">阶段五</a>
+                    <a class="item" data-tab="six">阶段六</a>
+                    <a class="item" data-tab="seven">阶段七</a>
+                </div>
+
+                <div class="ui bottom attached tab segment active" data-tab="first">
+                    <h3>JavaSE : <small>Java基础阶段,只有打好了基础才会走得更远</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、计算机基础</p>
+                        <p><i class="tags icon"></i> 2、Java入门学习</p>
+                        <p><i class="tags icon"></i> 3、Java基础语法</p>
+                        <p><i class="tags icon"></i> 4、流程控制和方法</p>
+                        <p><i class="tags icon"></i> 5、数组</p>
+                        <p><i class="tags icon"></i> 6、面向对象编程</p>
+                        <p><i class="tags icon"></i> 7、异常</p>
+                        <p><i class="tags icon"></i> 8、常用类</p>
+                        <p><i class="tags icon"></i> 9、集合框架</p>
+                        <p><i class="tags icon"></i> 10、IO</p>
+                        <p><i class="tags icon"></i> 11、多线程</p>
+                        <p><i class="tags icon"></i> 12、GUI编程</p>
+                        <p><i class="tags icon"></i> 13、网络编程</p>
+                        <p><i class="tags icon"></i> 14、注解和反射</p>
+                        <p><i class="tags icon"></i> 15、JUC编程</p>
+                        <p><i class="tags icon"></i> 16、JVM探究</p>
+                        <p><i class="tags icon"></i> 17、23种设计模式</p>
+                        <p><i class="tags icon"></i> 18、数据结构和算法</p>
+                        <p><i class="tags icon"></i> 19、正则表达式</p>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="second">
+                    <h3>JavaWeb : <small>迈向互联网全栈工程师的第一步</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、MySQL初级</p>
+                        <p><i class="tags icon"></i> 2、JDBC</p>
+                        <p><i class="tags icon"></i> 3、HTML2</p>
+                        <p><i class="tags icon"></i> 4、CSS3</p>
+                        <p><i class="tags icon"></i> 5、JavaScript</p>
+                        <p><i class="tags icon"></i> 6、jQuery</p>
+                        <p><i class="tags icon"></i> 7、Layui & BootStrap</p>
+                        <p><i class="tags icon"></i> 8、Http协议</p>
+                        <p><i class="tags icon"></i> 9、Tomcat</p>
+                        <p><i class="tags icon"></i> 10、Servlet</p>
+                        <p><i class="tags icon"></i> 11、Cookie & Session</p>
+                        <p><i class="tags icon"></i> 12、JSP</p>
+                        <p><i class="tags icon"></i> 13、JSTL & EL表达式</p>
+                        <p><i class="tags icon"></i> 14、MVC三层架构</p>
+                        <p><i class="tags icon"></i> 15、过滤器</p>
+                        <p><i class="tags icon"></i> 16、监听器</p>
+                        <p><i class="tags icon"></i> 17、文件上传下载</p>
+                        <p><i class="tags icon"></i> 18、邮件收发</p>
+                        <p><i class="tags icon"></i> 19、富文本编辑器</p>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="third">
+                    <h3>SSM框架 : <small>脱离原始开发，工作中的框架必须要掌握</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、Maven</p>
+                        <p><i class="tags icon"></i> 2、Junit</p>
+                        <p><i class="tags icon"></i> 3、Log4J</p>
+                        <p><i class="tags icon"></i> 4、MyBatis</p>
+                        <p><i class="tags icon"></i> 5、Spring</p>
+                        <p><i class="tags icon"></i> 6、SpringMVC</p>
+                        <p><i class="tags icon"></i> 7、JSON</p>
+                        <p><i class="tags icon"></i> 8、Ajax</p>
+                        <p><i class="tags icon"></i> 9、SSM框架整合</p>
+                        <p><i class="tags icon"></i> 10、Shiro</p>
+                        <p><i class="tags icon"></i> 11、Solr</p>
+                        <p><i class="tags icon"></i> 12、Git</p>
+                        <p><i class="tags icon"></i> 13、MyBatis-Plus</p>
+                        <p><i class="tags icon"></i> 14、MySQL高级</p>
+                        <p><i class="tags icon"></i> 15、Netty</p>
+                        <p><i class="tags icon"></i> 16、MyCat</p>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="four">
+                    <h3>Linux运维 : <small>大部分服务器都是Linux环境，不会点Linux，能叫全栈？</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、Linux基础</p>
+                        <p><i class="tags icon"></i> 2、Shell编程</p>
+                        <p><i class="tags icon"></i> 3、Linux系统管理</p>
+                        <p><i class="tags icon"></i> 4、Linux网络</p>
+                        <p><i class="tags icon"></i> 5、LAMP平台部署</p>
+                        <p><i class="tags icon"></i> 6、LNMP平台部署</p>
+                        <p><i class="tags icon"></i> 7、Nginx</p>
+                        <p><i class="tags icon"></i> 8、ELK日志分析</p>
+                        <p><i class="tags icon"></i> 9、MySQL集群</p>
+                        <p><i class="tags icon"></i> 10、Redis</p>
+                        <p><i class="tags icon"></i> 11、Linux集群</p>
+                        <p><i class="tags icon"></i> 12、Docker</p>
+                        <p><i class="tags icon"></i> 13、OpenStack</p>
+                        <p><i class="tags icon"></i> 14、Kubernetes</p>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="five">
+                    <h3>微服务和分布式 : <small>随着公司规模慢慢变大，分布式的开发变得就异常的重要了！</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、Vue</p>
+                        <p><i class="tags icon"></i> 2、NodeJS</p>
+                        <p><i class="tags icon"></i> 3、SpringBoot原理</p>
+                        <p><i class="tags icon"></i> 4、SpringBootWeb开发</p>
+                        <p><i class="tags icon"></i> 5、SpringData</p>
+                        <p><i class="tags icon"></i> 6、SpringSecurity</p>
+                        <p><i class="tags icon"></i> 7、SpringBoot分布式开发</p>
+                        <p><i class="tags icon"></i> 8、ActiveMQ</p>
+                        <p><i class="tags icon"></i> 9、Elsticsearch</p>
+                        <p><i class="tags icon"></i> 10、Dobbo + Zookeeper</p>
+                        <p><i class="tags icon"></i> 11、SpringCloud Netflix全家桶</p>
+                        <p><i class="tags icon"></i> 12、SpringCloud Alibaba全家桶</p>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="six">
+                    <h3>大数据开发 : <small>如果你觉得分布式已经完全掌握了，那你可以来学习大数据，为自己升值！</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、负载均衡</p>
+                        <p><i class="tags icon"></i> 2、Hadoop</p>
+                        <p><i class="tags icon"></i> 3、Hive</p>
+                        <p><i class="tags icon"></i> 4、HBase</p>
+                        <p><i class="tags icon"></i> 5、Flume</p>
+                        <p><i class="tags icon"></i> 6、Sqoop</p>
+                        <p><i class="tags icon"></i> 7、Zookeeper</p>
+                        <p><i class="tags icon"></i> 8、lmpala</p>
+                        <p><i class="tags icon"></i> 9、Scala编程</p>
+                        <p><i class="tags icon"></i> 10、Spark系列</p>
+                        <p><i class="tags icon"></i> 11、Kafka</p>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="seven">
+                    <h3>持续学习 : <small>即使再小的帆也能远航，程序猿，一个不断学习和追求新技术的群体，不持续学习就被时代抛弃！</small></h3>
+                    <hr>
+                    <div class="content">
+                        <p><i class="tags icon"></i> 1、Java8新特性</p>
+                        <p><i class="tags icon"></i> 2、Java9新特性</p>
+                        <p><i class="tags icon"></i> 3、Java10新特性</p>
+                        <p><i class="tags icon"></i> 4、Java11新特性</p>
+                        <p><i class="tags icon"></i> 5、Java12新特性</p>
+                        <p><i class="tags icon"></i> 6、Service Mesh</p>
+                        <p><i class="tags icon"></i> 7、计算机网络原理</p>
+                        <p><i class="tags icon"></i> 8、操作系统</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--自我介绍-->
+            <div class="three wide column">
+
+                <!-- 最新动态 -->
+                <div>
+                    <h3 class="ui header">
+                        <div class="content">
+                            <i class="bell outline icon"></i>最新动态
+                        </div>
+                    </h3>
+                </div>
+                <div class="ui feed">
+                    <div class="event">
+                        <div class="content">
+                            <div class="summary">
+                                <a class="user">秦疆</a><br>
+                                <small> 更新了SpringCloud视频</small>
+                                <div class="date" style="margin: 0">1 Hour Ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--info-->
+                <div class="ui raised card">
+                    <div class="content">
+                        <div class="header">Qin Jiang</div>
+                        <div class="meta">
+                            <span class="category">code、music、money</span>
+                        </div>
+                        <div class="description">
+                            <p>一个温暖的南方男孩，生在新疆，家在重庆，爱上了苏黎世！</p>
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div class="right floated author">
+                            <span>Java全栈工程师 <i class="forward icon"></i>讲师</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--个人照片-->
+                <div class="ui centered card">
+                    <div class="image">
+                        <img th:src="@{/qinjiang/images/my-life-photo.jpg}">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div th:replace="~{/commons/common::common-footer}"></div>
+</div>
+
+
+<script th:src="@{/qinjiang/js/jquery-3.1.1.min.js}"></script>
+<script th:src="@{/qinjiang/js/semantic.min.js}"></script>
+<script>
+    <!--动态消息栏-->
+    $('.message .close').on('click', function () {
+        $(this)
+            .closest('.message')
+            .transition('fade')
+        ;
+    });
+    //首页选项卡
+    $('.menu .item').tab();
+
+</script>
+
+
+</body>
+</html>
