@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00874c85-a5a5-4c15-8f4a-529146bb9b21" name="Default" comment="" />
+    <list default="true" id="00874c85-a5a5-4c15-8f4a-529146bb9b21" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/建站日记.md" beforeDir="false" afterPath="$PROJECT_DIR$/建站日记.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +49,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -55,6 +58,18 @@
                 <element signature="e#88#89#0" expanded="true" />
                 <element signature="e#124#125#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="建站日记.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/建站日记.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="514">
+                <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kuang/mapper/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/config/DruidConfig.java" />
@@ -140,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/commons/common.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java" />
+        <option value="$PROJECT_DIR$/建站日记.md" />
       </list>
     </option>
   </component>
@@ -265,22 +280,22 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang\js" />
-      <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang\css" />
-      <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang" />
-      <recent name="D:\Project\qin-blog\src\main\resources\templates" />
-      <recent name="D:\Project\qin-blog\src\main\resources\static\editormd\plugins\emoji-dialog" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kuang.service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\qin-blog\src\main\resources\templates\views" />
       <recent name="D:\Project\qin-blog\src\main\resources" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\editormd\css" />
       <recent name="D:\Project\qin-blog\src\main\resources\static" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\editormd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\qin-blog" />
+      <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang\js" />
+      <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang\css" />
+      <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang" />
+      <recent name="D:\Project\qin-blog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -1860,7 +1875,7 @@
       <workItem from="1572677054472" duration="268000" />
       <workItem from="1572680409772" duration="4677000" />
       <workItem from="1572756809753" duration="2550000" />
-      <workItem from="1572764057864" duration="367000" />
+      <workItem from="1572764057864" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架搭建">
       <created>1572681323997</created>
@@ -1904,7 +1919,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572764207284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新框架内容">
+      <created>1572764585694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572764585694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1916,7 +1938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63935000" />
+    <option name="totallyTimeSpent" value="64200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1928,7 +1950,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="34" width="1193" height="684" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.56921375" />
@@ -1936,7 +1959,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.27890557" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
@@ -1950,7 +1973,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3809524" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3293919" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32890365" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.28420123" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.1716418" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.16471216" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -2024,7 +2047,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/ArticleMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/blog.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/pojo/Article.java" />
     <entry file="das://9fe43504-c784-4f94-bf12-b7ea63ee0f74/schema/qin_blog/table/article">
@@ -2311,6 +2333,16 @@
             <element signature="e#88#89#0" expanded="true" />
             <element signature="e#124#125#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/建站日记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="514">
+            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
