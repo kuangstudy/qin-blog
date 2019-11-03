@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdb92ec-e982-49a9-b6c2-136525e87e30" name="Default Changelist" comment="" />
+    <list default="true" id="fbdb92ec-e982-49a9-b6c2-136525e87e30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,7 @@
         <counts>
           <entry key="html" value="2" />
           <entry key="java" value="3" />
+          <entry key="txt" value="24" />
           <entry key="yml" value="9" />
         </counts>
       </usages-collector>
@@ -85,6 +88,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JAVA" value="3" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
@@ -194,6 +198,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="baolingye &lt;57276578+baolingye@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -230,7 +239,7 @@
       <path value="$PROJECT_DIR$/src/main/resources/static/editormd/lib/codemirror/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-530" />
     <option name="y" value="5" />
     <option name="width" value="1590" />
@@ -351,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="favicon&#9;FILE&#9;file://E:/IdeaProjects/qin-blog/src/main/resources/static/editormd/images/logos/editormd-favicon-16x16.ico&#10;webmvcauto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration&#10;webmvc&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration&#10;webmvcpr&#9;FILE&#9;jar://D:/apache-maven-3.6.1/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.0.RELEASE/spring-boot-autoconfigure-2.2.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcProperties.class&#10;webmvcp&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572758806312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572759264533" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -390,17 +399,25 @@
       <option name="presentableId" value="Default" />
       <updated>1572709854627</updated>
       <workItem from="1572709864198" duration="1163000" />
-      <workItem from="1572742751572" duration="7039000" />
+      <workItem from="1572742751572" duration="7430000" />
     </task>
+    <task id="LOCAL-00001" summary="13:28">
+      <created>1572758894655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572758894655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8202000" />
+    <option name="totallyTimeSpent" value="8593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,7 +429,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +439,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,6 +457,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="13:28" />
+    <option name="LAST_COMMIT_MESSAGE" value="13:28" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/pojo/User.java">
