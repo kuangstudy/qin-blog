@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdb92ec-e982-49a9-b6c2-136525e87e30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/views/video/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/views/video/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="fbdb92ec-e982-49a9-b6c2-136525e87e30" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +56,7 @@
           <entry key="diy" value="1" />
           <entry key="html" value="6" />
           <entry key="ico" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="properties" value="1" />
           <entry key="xml" value="1" />
           <entry key="yml" value="1" />
@@ -73,7 +68,7 @@
           <entry key="Database Element" value="2" />
           <entry key="HTML" value="6" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
@@ -144,11 +139,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/config/MvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
               <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -180,14 +184,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1368" />
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,7 +230,7 @@
       <path value="$PROJECT_DIR$/src/main/resources/static/editormd/lib/codemirror/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-530" />
     <option name="y" value="5" />
     <option name="width" value="1590" />
@@ -347,7 +351,7 @@
     <property name="SearchEverywhereHistoryKey" value="favicon&#9;FILE&#9;file://E:/IdeaProjects/qin-blog/src/main/resources/static/editormd/images/logos/editormd-favicon-16x16.ico&#10;webmvcauto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration&#10;webmvc&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration&#10;webmvcpr&#9;FILE&#9;jar://D:/apache-maven-3.6.1/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.0.RELEASE/spring-boot-autoconfigure-2.2.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcProperties.class&#10;webmvcp&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572758240775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572758806312" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -386,12 +390,12 @@
       <option name="presentableId" value="Default" />
       <updated>1572709854627</updated>
       <workItem from="1572709864198" duration="1163000" />
-      <workItem from="1572742751572" duration="6483000" />
+      <workItem from="1572742751572" duration="7039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7646000" />
+    <option name="totallyTimeSpent" value="8202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -566,6 +570,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
