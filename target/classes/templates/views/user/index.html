@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>个人中心</title>
+    <!--semantic-ui-->
+    <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link th:href="@{/qinjiang/css/qinstyle.css}" rel="stylesheet">
+</head>
+<body>
+
+
+
+<!--主容器-->
+<div class="ui container">
+
+    <div th:replace="~{/commons/common::nav-menu(active='usercenter.html')}"></div>
+
+    <!--中间主体-->
+    <div class="ui grid">
+        <div class="row">
+            <div class="thirteen wide column">
+                <!--信息部分-->
+                <div class="ui segment">
+                    <div class="content" style="text-align: center">
+                        <h3>个人中心</h3>
+                    </div>
+                    <div class="ui divided items">
+                        <div class="item">
+                            <div class="ui small image">
+                                <img th:src="@{/qinjiang/images/tx.jpg}" style="border-radius: 50%;">
+                                <h5 style="text-align: center">Qin Jiang</h5>
+                            </div>
+
+                            <div class="content right">
+                                <table class="ui definition table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="three wide column">等级</td>
+                                            <td>
+                                                <div class="ui teal progress" data-percent="60" id="level">
+                                                    <div class="label"> <span>Lv1</span> (10/100)</div>
+                                                    <div class="bar"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>破壳</td>
+                                            <td>2020-10-10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>个人主页</td>
+                                            <td>blog.kuangstudy.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>个人简介</td>
+                                            <td>阳光帅气的男孩纸</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--tab-->
+                <div class="ui top attached tabular menu">
+                    <a class="item active" data-tab="one">我的文章 <span class="ui orange label">66</span> </a>
+                    <a class="item" data-tab="two">修改密码</a>
+                </div>
+
+                <div class="ui bottom attached tab segment active" data-tab="one">
+                    <div class="content">
+                        <div class="ui divided items">
+                            <div class="item" th:each="i:${#numbers.sequence(0,6)}">
+                                <div class="middle aligned content">
+                                    <div class="ui teal  horizontal label">好奇</div>
+                                    <a th:href="@{/blog/toPostArticle}">狂神到底多大?</a>
+                                </div>
+                                <div class="right">
+                                    <a class="ui teal circular label">2</a>
+                                </div>
+                            </div>
+
+
+                            <!--分页实现-->
+                            <div style="text-align: center">
+                                <button class="ui blue basic compact button">首页</button>
+                                <button class="ui blue basic labeled icon compact button">
+                                    <i class="left chevron icon"></i>
+                                    上页
+                                </button>
+                                <button class="ui compact button">1</button>
+                                <button class="ui blue basic right labeled icon compact button">
+                                    下页
+                                    <i class="right chevron icon"></i>
+                                </button>
+                                <button class="ui blue basic compact button">尾页</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--密码修改栏-->
+                <div class="ui bottom attached tab segment" data-tab="two">
+                    <div class="content">
+                        <form action="">
+                            <div class="ui labeled input">
+                                <div class="ui label">新密码</div>
+                                <input type="text" name="password1" placeholder="123456">
+                            </div>
+                            <div class="ui labeled input">
+                                <div class="ui label">确认新密码</div>
+                                <input type="text" name="password2" placeholder="123456">
+                            </div>
+                            <input class="positive ui button" type="submit">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--自我介绍-->
+            <div class="three wide column">
+                <div class="ui raised card">
+                    <div class="content">
+                        <a class="fluid positive ui button">签到</a>
+                    </div>
+                </div>
+                <!--info-->
+                <div class="ui raised card">
+                    <div class="content">
+                        <div class="header">Qin Jiang</div>
+                        <div class="meta">
+                            <span class="category">code、music、money</span>
+                        </div>
+                        <div class="description">
+                            <p>一个温暖的南方男孩，生在新疆，家在重庆，爱上了苏黎世！</p>
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div class="right floated author">
+                            <span>Java全栈工程师 <i class="forward icon"></i>讲师</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<script th:src="@{/qinjiang/js/jquery-3.1.1.min.js}"></script>
+<script th:src="@{/qinjiang/js/semantic.min.js}"></script>
+<script>
+    //首页选项卡
+    $('.menu .item').tab();
+    //经验条
+    $('#level').progress('increment');
+</script>
+
+</body>
+</html>

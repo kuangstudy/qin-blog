@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>登录</title>
+    <!--semantic-ui-->
+    <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!--主容器-->
+<div class="ui container">
+
+    <div class="ui segment">
+
+        <div style="text-align: center">
+            <h1 class="header">登录</h1>
+        </div>
+
+        <div class="ui placeholder segment">
+            <div class="ui column very relaxed stackable grid">
+                <div class="column">
+                    <div class="ui form">
+                        <form action="/">
+                            <div class="field">
+                                <label>Username</label>
+                                <div class="ui left icon input">
+                                    <input type="text" placeholder="Username" name="username">
+                                    <i class="user icon"></i>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Password</label>
+                                <div class="ui left icon input">
+                                    <input type="password" name="password">
+                                    <i class="lock icon"></i>
+                                </div>
+                            </div>
+                            <input type="submit" class="ui blue submit button"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center">
+            <small>经费原因，暂不开放注册</small><br><br>
+            <div class="ui label">
+                <i class="yen sign icon"></i>注册
+            </div>
+            <br><br>
+            <small>www.kuangstudy.com</small>
+        </div>
+    </div>
+
+
+</div>
+
+<script th:src="@{/qinjiang/js/jquery-3.1.1.min.js}"></script>
+<script th:src="@{/qinjiang/js/semantic.min.js}"></script>
+<script>
+    //选项卡
+    $('.menu .item').tab();
+</script>
+
+</body>
+</html>
