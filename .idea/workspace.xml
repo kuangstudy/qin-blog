@@ -46,13 +46,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+            <state relative-caret-position="95">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
-                <element signature="n#parent#0;n#project#0;n#!!top" />
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kuang/service/BlogServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/mapper/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java" />
@@ -139,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/commons/common.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java" />
       </list>
     </option>
   </component>
@@ -198,6 +199,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -229,13 +231,20 @@
               <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kuang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,6 +282,1459 @@
       <recent name="D:\Project\qin-blog\src\main\resources\static" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\editormd" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/compiler.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/application.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/templates/views/video/index.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/application.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/application.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/Gulpfile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/bower.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/css/editormd.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/css/editormd.logo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/css/editormd.logo.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/css/editormd.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/css/editormd.preview.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/css/editormd.preview.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/editormd.js.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Bold-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Bold-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Bold-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-BoldItalic-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-BoldItalic-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-BoldItalic-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Italic-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Italic-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Italic-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Light-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Light-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Light-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-LightItalic-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-LightItalic-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-LightItalic-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Regular-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Regular-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/fonts/OpenSans-Regular-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/scripts/linenumber.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/scripts/prettify/Apache-License-2.0.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/scripts/prettify/lang-css.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/scripts/prettify/prettify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/styles/jsdoc-default.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/styles/prettify-jsdoc.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/docs/styles/prettify-tomorrow.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/editormd.amd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/editormd.amd.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/editormd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/editormd.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/editormd-logo.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/editormd-logo.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/editormd-logo.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/editormd-logo.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/fonts/fontawesome-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/loading.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/loading@2x.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/loading@3x.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-favicon-16x16.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-favicon-24x24.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-favicon-32x32.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-favicon-48x48.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-favicon-64x64.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-114x114.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-120x120.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-144x144.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-16x16.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-180x180.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-240x240.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-24x24.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-320x320.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-32x32.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-48x48.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-57x57.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-64x64.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-72x72.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/editormd-logo-96x96.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/images/logos/vi.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/languages/en.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/languages/zh-tw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/AUTHORS</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/comment/comment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/comment/continuecomment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/dialog/dialog.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/display/fullscreen.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/display/fullscreen.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/display/panel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/display/placeholder.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/display/rulers.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/edit/closebrackets.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/edit/closetag.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/edit/continuelist.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/edit/matchbrackets.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/edit/matchtags.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/edit/trailingspace.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/brace-fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/comment-fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/foldcode.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/foldgutter.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/foldgutter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/indent-fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/markdown-fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/fold/xml-fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/anyword-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/css-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/html-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/javascript-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/show-hint.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/show-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/sql-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/hint/xml-hint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/coffeescript-lint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/css-lint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/javascript-lint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/json-lint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/lint.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/lint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/lint/yaml-lint.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/merge/merge.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/merge/merge.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/mode/loadmode.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/mode/multiplex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/mode/multiplex_test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/mode/overlay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/mode/simple.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/runmode/colorize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/runmode/runmode-standalone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/runmode/runmode.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/runmode/runmode.node.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/scroll/annotatescrollbar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/scroll/scrollpastend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/scroll/simplescrollbars.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/scroll/simplescrollbars.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/search/match-highlighter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/search/matchesonscrollbar.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/search/matchesonscrollbar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/search/search.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/search/searchcursor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/selection/active-line.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/selection/mark-selection.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/selection/selection-pointer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/tern/tern.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/tern/tern.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/tern/worker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addon/wrap/hardwrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/addons.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/bower.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/codemirror.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/codemirror.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/lib/codemirror.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/lib/codemirror.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/apl/apl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/apl/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/asterisk/asterisk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/asterisk/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/clike/clike.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/clike/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/clike/scala.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/clojure/clojure.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/clojure/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/cobol/cobol.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/cobol/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/coffeescript/coffeescript.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/coffeescript/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/commonlisp/commonlisp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/commonlisp/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/css.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/less.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/less_test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/scss.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/scss_test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/css/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/cypher/cypher.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/cypher/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/d/d.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/d/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dart/dart.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dart/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/diff/diff.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/diff/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/django/django.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/django/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dockerfile/dockerfile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dockerfile/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dtd/dtd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dtd/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dylan/dylan.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/dylan/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ebnf/ebnf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ebnf/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ecl/ecl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ecl/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/eiffel/eiffel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/eiffel/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/erlang/erlang.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/erlang/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/forth/forth.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/forth/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/fortran/fortran.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/fortran/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gas/gas.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gas/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gfm/gfm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gfm/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gfm/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gherkin/gherkin.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/gherkin/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/go/go.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/go/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/groovy/groovy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/groovy/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haml/haml.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haml/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haml/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haskell/haskell.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haskell/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haxe/haxe.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/haxe/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/htmlembedded/htmlembedded.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/htmlembedded/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/htmlmixed/htmlmixed.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/htmlmixed/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/http/http.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/http/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/idl/idl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/idl/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/jade/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/jade/jade.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/javascript/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/javascript/javascript.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/javascript/json-ld.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/javascript/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/javascript/typescript.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/jinja2/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/jinja2/jinja2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/julia/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/julia/julia.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/kotlin/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/kotlin/kotlin.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/livescript/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/livescript/livescript.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/lua/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/lua/lua.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/markdown/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/markdown/markdown.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/markdown/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/meta.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/mirc/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/mirc/mirc.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/mllike/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/mllike/mllike.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/modelica/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/modelica/modelica.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/nginx/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/nginx/nginx.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ntriples/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ntriples/ntriples.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/octave/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/octave/octave.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/pascal/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/pascal/pascal.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/pegjs/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/pegjs/pegjs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/perl/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/perl/perl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/php/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/php/php.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/php/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/pig/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/pig/pig.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/properties/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/properties/properties.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/puppet/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/puppet/puppet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/python/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/python/python.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/q/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/q/q.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/r/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/r/r.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rpm/changes/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rpm/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rpm/rpm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rst/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rst/rst.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ruby/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ruby/ruby.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/ruby/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rust/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/rust/rust.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sass/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sass/sass.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/scheme/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/scheme/scheme.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/shell/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/shell/shell.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/shell/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sieve/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sieve/sieve.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/slim/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/slim/slim.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/slim/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/smalltalk/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/smalltalk/smalltalk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/smarty/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/smarty/smarty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/smartymixed/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/smartymixed/smartymixed.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/solr/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/solr/solr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/soy/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/soy/soy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sparql/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sparql/sparql.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/spreadsheet/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/spreadsheet/spreadsheet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sql/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/sql/sql.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/stex/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/stex/stex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/stex/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/stylus/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/stylus/stylus.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tcl/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tcl/tcl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/textile/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/textile/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/textile/textile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tiddlywiki/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tiki/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tiki/tiki.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tiki/tiki.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/toml/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/toml/toml.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tornado/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/tornado/tornado.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/turtle/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/turtle/turtle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/vb/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/vb/vb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/vbscript/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/vbscript/vbscript.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/velocity/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/velocity/velocity.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/verilog/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/verilog/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/verilog/verilog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/xml/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/xml/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/xml/xml.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/xquery/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/xquery/test.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/xquery/xquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/yaml/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/yaml/yaml.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/z80/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/mode/z80/z80.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/modes.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/3024-day.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/3024-night.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/ambiance-mobile.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/ambiance.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/base16-dark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/base16-light.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/blackboard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/cobalt.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/colorforth.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/eclipse.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/elegant.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/erlang-dark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/lesser-dark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/mbo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/mdn-like.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/midnight.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/monokai.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/neat.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/neo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/night.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/paraiso-dark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/paraiso-light.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/pastel-on-dark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/rubyblue.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/solarized.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/the-matrix.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/tomorrow-night-bright.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/tomorrow-night-eighties.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/twilight.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/vibrant-ink.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/xq-dark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/xq-light.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/codemirror/theme/zenburn.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/flowchart.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/jquery.flowchart.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/marked.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/prettify.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/raphael.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/sequence-diagram.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/lib/underscore.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/code-block-dialog/code-block-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/+1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/100.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/109.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/1234.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/8ball.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/a.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ab.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/abc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/abcd.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/accept.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/aerial_tramway.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/airplane.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/alarm_clock.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/alien.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ambulance.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/anchor.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/angel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/anger.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/angry.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/anguished.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ant.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/apple.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/aquarius.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/aries.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_backward.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_double_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_double_up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_down_small.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_forward.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_heading_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_heading_up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_left.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_lower_left.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_lower_right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_right_hook.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_up_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_up_small.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_upper_left.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrow_upper_right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrows_clockwise.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/arrows_counterclockwise.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/art.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/articulated_lorry.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/astonished.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/atm.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/b.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/baby.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/baby_bottle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/baby_chick.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/baby_symbol.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/back.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/baggage_claim.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/balloon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ballot_box_with_check.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bamboo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/banana.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bangbang.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bank.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bar_chart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/barber.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/baseball.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/basketball.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bath.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bathtub.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/battery.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bear.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/beer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/beers.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/beetle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/beginner.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bell.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bento.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bicyclist.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bike.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bikini.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bird.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/birthday.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_circle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_joker.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_medium_small_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_medium_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_nib.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_small_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/black_square_button.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/blossom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/blowfish.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/blue_book.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/blue_car.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/blue_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/blush.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/boar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/boat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bomb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/book.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bookmark.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bookmark_tabs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/books.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/boom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/boot.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bouquet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bowling.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bowtie.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/boy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bread.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bride_with_veil.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bridge_at_night.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/briefcase.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/broken_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bug.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bulb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bullettrain_front.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bullettrain_side.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/busstop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/bust_in_silhouette.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/busts_in_silhouette.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cactus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cake.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/calendar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/calling.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/camel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/camera.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cancer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/candy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/capital_abcd.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/capricorn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/car.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/card_index.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/carousel_horse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cat2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cd.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/chart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/chart_with_downwards_trend.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/chart_with_upwards_trend.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/checkered_flag.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cherries.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cherry_blossom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/chestnut.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/chicken.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/children_crossing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/chocolate_bar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/christmas_tree.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/church.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cinema.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/circus_tent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/city_sunrise.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/city_sunset.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cl.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clap.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clapper.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clipboard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock10.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock1030.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock11.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock1130.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock12.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock1230.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock130.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock230.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock330.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock430.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock530.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock630.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock730.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock830.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clock930.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/closed_book.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/closed_lock_with_key.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/closed_umbrella.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cloud.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/clubs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cocktail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/coffee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cold_sweat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/collision.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/computer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/confetti_ball.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/confounded.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/confused.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/congratulations.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/construction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/construction_worker.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/convenience_store.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cookie.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cool.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/copyright.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/corn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/couple.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/couple_with_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/couplekiss.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cow2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/credit_card.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/crocodile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/crossed_flags.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/crown.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cry.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/crying_cat_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/crystal_ball.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cupid.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/curly_loop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/currency_exchange.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/curry.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/custard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/customs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/cyclone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dancer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dancers.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dango.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dash.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/date.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/de.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/deciduous_tree.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/department_store.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/diamond_shape_with_a_dot_inside.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/diamonds.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/disappointed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/disappointed_relieved.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dizzy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dizzy_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/do_not_litter.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dog.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dog2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dollar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dolls.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dolphin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/donut.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/door.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/doughnut.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dragon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dragon_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dress.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dromedary_camel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/droplet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/dvd.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/e-mail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ear.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ear_of_rice.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/earth_africa.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/earth_americas.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/earth_asia.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/egg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/eggplant.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/eight.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/eight_pointed_black_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/eight_spoked_asterisk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/electric_plug.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/elephant.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/email.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/emojify.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/end.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/envelope.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/es.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/euro.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/european_castle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/european_post_office.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/evergreen_tree.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/exclamation.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/expressionless.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/eyeglasses.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/eyes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/facepunch.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/factory.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fallen_leaf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/family.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fast_forward.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fax.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fearful.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/feelsgood.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/feet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ferris_wheel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/file_folder.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/finnadie.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fire.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fire_engine.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fireworks.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/first_quarter_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/first_quarter_moon_with_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fish.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fish_cake.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fishing_pole_and_fish.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fist.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/five.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/flags.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/flashlight.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/floppy_disk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/flower_playing_cards.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/flushed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/foggy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/football.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fork_and_knife.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fountain.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/four.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/four_leaf_clover.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fr.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/free.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fried_shrimp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fries.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/frog.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/frowning.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fu.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/fuelpump.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/full_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/full_moon_with_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/game_die.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/gb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/gem.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/gemini.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ghost.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/gift.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/gift_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/girl.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/globe_with_meridians.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/goat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/goberserk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/godmode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/golf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/grapes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/green_apple.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/green_book.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/green_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/grey_exclamation.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/grey_question.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/grimacing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/grin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/grinning.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/guardsman.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/guitar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/gun.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/haircut.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hamburger.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hammer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hamster.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hand.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/handbag.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hankey.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hash.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hatched_chick.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hatching_chick.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/headphones.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hear_no_evil.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heart_decoration.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heart_eyes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heart_eyes_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heartbeat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heartpulse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hearts.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_check_mark.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_division_sign.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_dollar_sign.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_exclamation_mark.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_minus_sign.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_multiplication_x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/heavy_plus_sign.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/helicopter.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/herb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hibiscus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/high_brightness.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/high_heel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hocho.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/honey_pot.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/honeybee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/horse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/horse_racing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hospital.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hotel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hotsprings.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hourglass.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hourglass_flowing_sand.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/house.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/house_with_garden.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hurtrealbad.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/hushed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ice_cream.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/icecream.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/id.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ideograph_advantage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/imp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/inbox_tray.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/incoming_envelope.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/information_desk_person.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/information_source.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/innocent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/interrobang.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/iphone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/it.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/izakaya_lantern.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/jack_o_lantern.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/japan.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/japanese_castle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/japanese_goblin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/japanese_ogre.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/jeans.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/joy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/joy_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/jp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/key.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/keycap_ten.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kimono.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kiss.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kissing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kissing_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kissing_closed_eyes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kissing_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kissing_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kissing_smiling_eyes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/koala.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/koko.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/kr.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/large_blue_circle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/large_blue_diamond.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/large_orange_diamond.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/last_quarter_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/last_quarter_moon_with_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/laughing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/leaves.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ledger.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/left_luggage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/left_right_arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/leftwards_arrow_with_hook.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/lemon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/leo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/leopard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/libra.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/light_rail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/link.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/lips.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/lipstick.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/lock.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/lock_with_ink_pen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/lollipop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/loop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/loudspeaker.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/love_hotel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/love_letter.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/low_brightness.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/m.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mag.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mag_right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mahjong.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mailbox.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mailbox_closed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mailbox_with_mail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mailbox_with_no_mail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/man.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/man_with_gua_pi_mao.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/man_with_turban.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mans_shoe.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/maple_leaf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mask.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/massage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/meat_on_bone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mega.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/melon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/memo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mens.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/metal.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/metro.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/microphone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/microscope.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/milky_way.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/minibus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/minidisc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mobile_phone_off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/money_with_wings.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/moneybag.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/monkey.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/monkey_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/monorail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mortar_board.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mount_fuji.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mountain_bicyclist.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mountain_cableway.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mountain_railway.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mouse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mouse2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/movie_camera.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/moyai.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/muscle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mushroom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/musical_keyboard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/musical_note.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/musical_score.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/mute.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/nail_care.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/name_badge.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/neckbeard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/necktie.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/negative_squared_cross_mark.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/neutral_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/new.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/new_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/new_moon_with_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/newspaper.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ng.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/nine.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_bell.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_bicycles.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_entry.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_entry_sign.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_good.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_mobile_phones.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_mouth.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_pedestrians.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/no_smoking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/non-potable_water.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/nose.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/notebook.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/notebook_with_decorative_cover.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/notes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/nut_and_bolt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/o.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/o2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ocean.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/octocat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/octopus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/oden.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/office.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ok.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ok_hand.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ok_woman.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/older_man.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/older_woman.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/on.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/oncoming_automobile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/oncoming_bus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/oncoming_police_car.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/oncoming_taxi.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/one.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/open_file_folder.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/open_hands.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/open_mouth.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ophiuchus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/orange_book.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/outbox_tray.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ox.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/package.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/page_facing_up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/page_with_curl.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pager.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/palm_tree.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/panda_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/paperclip.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/parking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/part_alternation_mark.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/partly_sunny.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/passport_control.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/paw_prints.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/peach.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pear.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pencil.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pencil2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/penguin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pensive.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/performing_arts.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/persevere.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/person_frowning.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/person_with_blond_hair.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/person_with_pouting_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/phone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pig.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pig2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pig_nose.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pill.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pineapple.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pisces.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pizza.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/plus1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/point_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/point_left.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/point_right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/point_up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/point_up_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/police_car.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/poodle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/poop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/post_office.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/postal_horn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/postbox.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/potable_water.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pouch.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/poultry_leg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pound.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pouting_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pray.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/princess.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/punch.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/purple_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/purse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/pushpin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/put_litter_in_its_place.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/question.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rabbit.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rabbit2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/racehorse.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/radio.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/radio_button.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rage1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rage2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rage3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rage4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/railway_car.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rainbow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/raised_hand.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/raised_hands.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/raising_hand.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ram.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ramen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/recycle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/red_car.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/red_circle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/registered.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/relaxed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/relieved.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/repeat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/repeat_one.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/restroom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/revolving_hearts.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rewind.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ribbon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rice.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rice_ball.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rice_cracker.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rice_scene.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ring.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rocket.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/roller_coaster.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rooster.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rose.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rotating_light.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/round_pushpin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rowboat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ru.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/rugby_football.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/runner.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/running.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/running_shirt_with_sash.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sa.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sagittarius.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sailboat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sake.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sandal.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/santa.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/satellite.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/satisfied.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/saxophone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/school.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/school_satchel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/scissors.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/scorpius.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/scream.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/scream_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/scroll.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/seat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/secret.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/see_no_evil.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/seedling.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/seven.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shaved_ice.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sheep.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shell.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ship.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shipit.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shirt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shit.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shoe.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/shower.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/signal_strength.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/six.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/six_pointed_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ski.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/skull.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sleeping.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sleepy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/slot_machine.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/small_blue_diamond.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/small_orange_diamond.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/small_red_triangle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/small_red_triangle_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smile_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smiley.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smiley_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smiling_imp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smirk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smirk_cat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/smoking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/snail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/snake.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/snowboarder.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/snowflake.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/snowman.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sob.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/soccer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/soon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sos.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sound.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/space_invader.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/spades.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/spaghetti.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sparkle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sparkler.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sparkles.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sparkling_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/speak_no_evil.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/speaker.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/speech_balloon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/speedboat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/squirrel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/star2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/stars.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/station.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/statue_of_liberty.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/steam_locomotive.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/stew.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/straight_ruler.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/strawberry.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/stuck_out_tongue.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/stuck_out_tongue_closed_eyes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/stuck_out_tongue_winking_eye.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sun_with_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sunflower.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sunglasses.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sunny.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sunrise.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sunrise_over_mountains.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/surfer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sushi.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/suspect.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/suspension_railway.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sweat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sweat_drops.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sweat_smile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/sweet_potato.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/swimmer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/symbols.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/syringe.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tada.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tanabata_tree.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tangerine.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/taurus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/taxi.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tea.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/telephone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/telephone_receiver.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/telescope.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tennis.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/thought_balloon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/three.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/thumbsdown.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/thumbsup.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/ticket.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tiger.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tiger2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tired_face.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tm.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/toilet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tokyo_tower.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tomato.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tongue.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/top.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tophat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tractor.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/traffic_light.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/train.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/train2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tram.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/triangular_flag_on_post.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/triangular_ruler.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/trident.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/triumph.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/trolleybus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/trollface.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/trophy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tropical_drink.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tropical_fish.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/truck.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/trumpet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tshirt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tulip.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/turtle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/tv.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/twisted_rightwards_arrows.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/two.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/two_hearts.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/two_men_holding_hands.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/two_women_holding_hands.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u5272.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u5408.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u55b6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u6307.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u6708.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u6709.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u6e80.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u7121.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u7533.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u7981.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/u7a7a.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/uk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/umbrella.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/unamused.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/underage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/unlock.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/us.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/v.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/vertical_traffic_light.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/vhs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/vibration_mode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/video_camera.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/video_game.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/violin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/virgo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/volcano.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/vs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/walking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/waning_crescent_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/waning_gibbous_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/warning.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/watch.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/water_buffalo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/watermelon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wave.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wavy_dash.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/waxing_crescent_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/waxing_gibbous_moon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/weary.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wedding.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/whale.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/whale2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wheelchair.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_check_mark.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_circle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_flower.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_large_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_medium_small_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_medium_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_small_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_square.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/white_square_button.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wind_chime.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wine_glass.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wink.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wink2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wolf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/woman.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/womans_clothes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/womans_hat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/womens.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/worried.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/wrench.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/yellow_heart.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/yen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/yum.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/zap.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/zero.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/emoji-dialog/emoji/zzz.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/goto-line-dialog/goto-line-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/help-dialog/help-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/help-dialog/help.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/html-entities-dialog/html-entities-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/html-entities-dialog/html-entities.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/image-dialog/image-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/link-dialog/link-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/plugin-template.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/reference-link-dialog/reference-link-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/table-dialog/table-dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/plugins/test-plugin/test-plugin.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.codemirror.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.dialog.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.form.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.grid.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.logo.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.menu.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.preview.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.preview.themes.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.tab.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/editormd.themes.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/font-awesome.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/github-markdown.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/lib/prefixes.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/lib/variables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/scss/prettify.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/editormd/src/editormd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/css/qinstyle.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/images/my-life-photo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/images/test-index-page.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/images/tx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/images/weixin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/images/zhifubao.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/js/jquery-3.1.1.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/static/qinjiang/js/semantic.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/commons/common.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/blog/article.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/blog/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/blog/postblog.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/other/about.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/other/file.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/other/say.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/system/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/user/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/video/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/templates/views/video/play.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -398,6 +1860,7 @@
       <workItem from="1572677054472" duration="268000" />
       <workItem from="1572680409772" duration="4677000" />
       <workItem from="1572756809753" duration="2550000" />
+      <workItem from="1572764057864" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架搭建">
       <created>1572681323997</created>
@@ -427,7 +1890,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572759098047</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新框架内容">
+      <created>1572764108079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572764108079</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新框架内容">
+      <created>1572764207284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572764207284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -439,7 +1916,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63568000" />
+    <option name="totallyTimeSpent" value="63935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,16 +1928,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="106" y="34" width="1193" height="684" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.56921375" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15778251" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.15778251" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.18336888" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.27890557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
@@ -468,13 +1944,13 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293919" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3293919" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32890365" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.56921375" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.6511628" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3809524" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3293919" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32890365" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.17750533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.28420123" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.16471216" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -548,13 +2024,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://9fe43504-c784-4f94-bf12-b7ea63ee0f74/schema/qin_blog/table/blog-article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/ArticleMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/blog.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/pojo/Article.java" />
@@ -819,15 +2288,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+        <state relative-caret-position="816">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding>
             <element signature="n#parent#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
