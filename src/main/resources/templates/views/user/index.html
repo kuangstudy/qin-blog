@@ -30,7 +30,7 @@
                         <div class="item">
                             <div class="ui small image">
                                 <img th:src="@{/qinjiang/images/tx.jpg}" style="border-radius: 50%;">
-                                <h5 style="text-align: center">Qin Jiang</h5>
+                                <h5 style="text-align: center" th:text="${session.loginUser.getName()}"></h5>
                             </div>
 
                             <div class="content right">
@@ -39,23 +39,23 @@
                                         <tr>
                                             <td class="three wide column">等级</td>
                                             <td>
-                                                <div class="ui teal progress" data-percent="60" id="level">
-                                                    <div class="label"> <span>Lv1</span> (10/100)</div>
+                                                <div class="ui teal progress" th:data-percent="${session.loginUser.getLevel()/100}" id="level">
+                                                    <div class="label"> <span>Lv1</span> ( [[${session.loginUser.getLevel()}]] /10000)</div>
                                                     <div class="bar"></div>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>破壳</td>
-                                            <td>2020-10-10</td>
+                                            <td th:text="${#dates.format(session.loginUser.getCreateTime(),'yyyy-MM-dd')}"></td>
                                         </tr>
                                         <tr>
                                             <td>个人主页</td>
-                                            <td>blog.kuangstudy.com</td>
+                                            <td th:text="${session.loginUser.getHomepage()}"></td>
                                         </tr>
                                         <tr>
                                             <td>个人简介</td>
-                                            <td>阳光帅气的男孩纸</td>
+                                            <td th:text="${session.loginUser.getIntroduce()}"></td>
                                         </tr>
                                     </tbody>
                                 </table>

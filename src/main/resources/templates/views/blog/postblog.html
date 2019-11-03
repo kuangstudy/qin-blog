@@ -9,7 +9,7 @@
     <link th:href="@{/qinjiang/css/qinstyle.css}" rel="stylesheet">
     <!--Editor.md-->
     <link rel="stylesheet" th:href="@{/editormd/css/editormd.css}"/>
-    <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon"/>
 </head>
 <body>
 
@@ -26,25 +26,23 @@
                 <div class="ui segment">
                     <div class="content">
                         <!--表单提交处理！-->
-                        <form action="">
+                        <form th:action="@{/blog/addArticle}" method="post">
                             <div class="ui form">
                                 <div class="inline fields">
                                     <!--title-->
                                     <div class="twelve wide field">
                                         <label>Title</label>
-                                        <input type="text" placeholder="狂神">
+                                        <input type="text" placeholder="狂神" name="title">
+                                        <input type="hidden" placeholder="狂神" name="author"
+                                               th:value="${session.loginUser.getName()}">
+                                        <input type="hidden" placeholder="狂神" name="createTime"
+                                               th:value="${#dates.format(#dates.createToday(),'yyyy-MM-dd')}">
                                     </div>
                                     <!--tag-->
                                     <div class="two wide field">
-                                        <div class="ui compact menu">
-                                            <div class="ui simple dropdown item">
-                                                选则标签
-                                                <i class="dropdown icon"></i>
-                                                <div class="menu">
-                                                    <a class="item" th:each="i:${#numbers.sequence(0,3)}">Java</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <select name="tag">
+                                            <option th:value="${tag.getId()}" th:each="tag:${tags}">[[${tag.getTagName()}]]</option>
+                                        </select>
                                     </div>
                                     <!--提交按钮-->
                                     <div class="two wide field">
@@ -76,6 +74,7 @@
     //选项卡
     $('.menu .item').tab();
     $('.ui.checkbox').checkbox(); //复选框
+    $('select.dropdown').dropdown();
 </script>
 
 <!--editormd-->
@@ -84,36 +83,34 @@
 <script type="text/javascript">
     var testEditor;
 
-    $(function() {
+    $(function () {
         testEditor = editormd("article-content", {
-            width : "100%",
-            height : 540,
-            syncScrolling : "single",
-            path : "../editormd/lib/",
+            width: "100%",
+            height: 540,
+            syncScrolling: "single",
+            path: "../editormd/lib/",
             emoji: true,
-            tex : true,                   // 开启科学公式TeX语言支持，默认关闭
-            flowChart : true,             // 开启流程图支持，默认关闭
-            sequenceDiagram : true,       // 开启时序/序列图支持，默认关闭,
+            tex: true,                   // 开启科学公式TeX语言支持，默认关闭
+            flowChart: true,             // 开启流程图支持，默认关闭
+            sequenceDiagram: true,       // 开启时序/序列图支持，默认关闭,
             //图片上传
-            imageUpload : true,
-            imageFormats : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
-            imageUploadURL : "/blog/file/upload",
+            imageUpload: true,
+            imageFormats: ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
+            imageUploadURL: "/blog/file/upload",
 
             /*指定需要显示的功能按钮*/
-            toolbarIcons : function() {
-                return ["undo","redo","|",
-                    "bold","del","italic","quote","|",
-                    "h1","h2","h3","h4","h5","h6","|",
-                    "list-ul","list-ol","|",
-                    "link","image","code","preformatted-text",
-                    "code-block","table","datetime","emoji","html-entities","|",
-                    "watch","fullscreen"]
+            toolbarIcons: function () {
+                return ["undo", "redo", "|",
+                    "bold", "del", "italic", "quote", "|",
+                    "h1", "h2", "h3", "h4", "h5", "h6", "|",
+                    "list-ul", "list-ol", "|",
+                    "link", "image", "code", "preformatted-text",
+                    "code-block", "table", "datetime", "emoji", "html-entities", "|",
+                    "watch", "fullscreen"]
             }
         });
     });
 </script>
-
-</html>
 
 </body>
 </html>

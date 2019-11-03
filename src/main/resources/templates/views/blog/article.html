@@ -23,20 +23,19 @@
                 <div class="ui segment">
                     <div class="content">
                         <!--标题居中-->
-                        <h3 class="ui header" style="text-align: center">
-                            文章标题
+                        <h3 th:text="${article.getTitle()}" class="ui header" style="text-align: center">
                         </h3>
                         <!--作者信息和创建时间-->
                         <div class="ui secondary  menu">
-                            <a class="item">作者：<span>狂神说</span></a>
+                            <a class="item">作者：<span th:text="${article.getAuthor()}"></span></a>
                             <div class="right menu">
-                                <a class="ui item">创建时间：<span>2020-10-10</span></a>
+                                <a class="ui item">创建时间：<span th:text="${article.getCreateTime()}"></span></a>
                             </div>
                         </div>
                         <!--文章主体内容-->
                         <div class="ui segment">
                             <div id="doc-content">
-                                <textarea style="display:none;" placeholder="markdown"></textarea>
+                                <textarea style="display:none;" placeholder="markdown" th:text="${article.getContent()}"></textarea>
                             </div>
                         </div>
                         <!--文章底部-->

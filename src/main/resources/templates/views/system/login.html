@@ -22,7 +22,7 @@
             <div class="ui column very relaxed stackable grid">
                 <div class="column">
                     <div class="ui form">
-                        <form action="/">
+                        <form th:action="@{/usr/login}" method="post">
                             <div class="field">
                                 <label>Username</label>
                                 <div class="ui left icon input">
@@ -37,6 +37,10 @@
                                     <i class="lock icon"></i>
                                 </div>
                             </div>
+                            <div class="field">
+                                <p style="color: red" th:text="${msg}"></p>
+                            </div>
+
                             <input type="submit" class="ui blue submit button"/>
                         </form>
                     </div>

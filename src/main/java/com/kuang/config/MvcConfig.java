@@ -11,7 +11,7 @@ public class MvcConfig implements WebMvcConfigurer {
     //自定义映射
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        //registry.addViewController("/admin").setViewName("admin/index");
+        registry.addViewController("/index.html").setViewName("index");
     }
 
     //虚拟目录映射

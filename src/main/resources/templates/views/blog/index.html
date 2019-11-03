@@ -25,10 +25,10 @@
                     <div class="content">
                         <div class="ui divided items">
 
-                            <div class="item" th:each="i:${#numbers.sequence(0,10)}">
+                            <div class="item" th:each="article:${articles}">
                                 <div class="middle aligned content">
-                                    <div class="ui teal  horizontal label">标签</div>
-                                    <a th:href="@{/blog/toArticle}">狂神到底多大?</a>
+                                    <div class="ui teal  horizontal label" th:text="${article.getTag()}"></div>
+                                    <a th:href="@{/blog/toArticle/}+${article.getId()}" th:text="${article.getTitle()}"></a>
                                 </div>
                                 <div class="right">
                                     <a class="ui teal circular label">2</a>
@@ -85,8 +85,8 @@
                     <div class="content">
                         <div class="header">博客标签</div>
                         <div class="description" id="blog-lable">
-                            <a class="ui yellow label" th:each="i:${#numbers.sequence(0,8)}">
-                                标签A
+                            <a class="ui yellow label" th:each="tag:${tags}" th:text="${tag.getTagName()}">
+
                             </a>
                         </div>
                     </div>
