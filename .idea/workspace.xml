@@ -49,8 +49,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+            <state relative-caret-position="1596">
+              <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
               <folding>
                 <element signature="n#parent#0;n#project#0;n#!!top" />
               </folding>
@@ -205,11 +205,6 @@
             <path>
               <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -402,7 +397,7 @@
       <workItem from="1572661028423" duration="1494000" />
       <workItem from="1572677054472" duration="268000" />
       <workItem from="1572680409772" duration="4677000" />
-      <workItem from="1572756809753" duration="1760000" />
+      <workItem from="1572756809753" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架搭建">
       <created>1572681323997</created>
@@ -425,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572758416760</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新框架内容">
+      <created>1572759098047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572759098047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62778000" />
+    <option name="totallyTimeSpent" value="63568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +455,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.56921375" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.56921375" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15778251" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -468,7 +470,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3293919" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.56921375" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.56921375" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3809524" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3293919" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32890365" />
@@ -822,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        <state relative-caret-position="1596">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding>
             <element signature="n#parent#0;n#project#0;n#!!top" />
           </folding>
