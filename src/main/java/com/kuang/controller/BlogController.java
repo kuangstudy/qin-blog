@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
@@ -44,10 +45,18 @@ public class BlogController {
     }
 
     @GetMapping("/blog/toPostArticle")
-    public String toPostArticle(Model model){
-        List<Tag> tags = tagService.queryTags();
-        model.addAttribute("tags",tags);
-        return "views/blog/postblog";
+    public String toPostArticle(Model model, HttpSession session){
+
+        //做判断，从session中取出用户信息，如果用户不存在，则无法写博客！否则500
+        Object loginUser = session.getAttribute("loginUser");
+        if (loginUser==null){
+            model.addAttribute("msg","请先登录才能发博客");
+            return "views/system/login";
+        }else {
+            List<Tag> tags = tagService.queryTags();
+            model.addAttribute("tags",tags);
+            return "views/blog/postblog";
+        }
     }
 
     //文件上传回调() editormd
@@ -62,12 +71,10 @@ public class BlogController {
     @RequestMapping("/blog/addArticle")
     public String addArticle(Article article){
         System.out.println("addArticle=>"+article);
-
         article.setCreateTime(new Date());
-
         articleService.addArticle(article);
 
-        return "views/blog/index";
+        return "redirect:/blog/toBlogIndex";
     }
 
 }
