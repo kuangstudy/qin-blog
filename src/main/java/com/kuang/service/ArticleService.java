@@ -12,6 +12,7 @@ public interface ArticleService {
     public Article queryArticleById(int id);
     //增加文章
     public int addArticle(Article article);
-
+    //删除文章
+    public int delArticle(int id);
 
 }

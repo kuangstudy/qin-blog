@@ -12,12 +12,13 @@ public class MvcConfig implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/index.html").setViewName("index");
+        registry.addViewController("/").setViewName("index");
     }
 
     //虚拟目录映射
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/upload/**").addResourceLocations("file:D:/Project/qin-blog/upload/");
+        registry.addResourceHandler("/upload/**").addResourceLocations("file:E:/IdeaProjects/qin-blog/upload/");
     }
 
 

@@ -30,6 +30,7 @@
                                     <div class="ui teal  horizontal label" th:text="${article.getTag()}"></div>
                                     <a th:href="@{/blog/toArticle/}+${article.getId()}" th:text="${article.getTitle()}"></a>
                                 </div>
+                                <a class="ui teal  horizontal label" th:text="删除文章" style="cursor: pointer" th:href="@{/blog/del/}+${article.getId()}"></a>
                                 <div class="right">
                                     <a class="ui teal circular label">2</a>
                                 </div>

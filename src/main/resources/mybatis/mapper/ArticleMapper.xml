@@ -16,8 +16,11 @@
     <insert id="addArticle" parameterType="Article">
       insert into article (title,author,create_time,content,tag)
       values (#{title},#{author},#{createTime},#{content},#{tag});
-  </insert>
+    </insert>
 
+    <delete id="delArticle" parameterType="Integer">
+        delete from qin_blog.article where id = #{id};
+    </delete>
 
 
 </mapper>

@@ -77,4 +77,9 @@ public class BlogController {
         return "redirect:/blog/toBlogIndex";
     }
 
+    @RequestMapping("/blog/del/{id}")
+    public String delArticle(@PathVariable int id) {
+        articleService.delArticle(id);
+        return "redirect:/blog/toBlogIndex";
+    }
 }

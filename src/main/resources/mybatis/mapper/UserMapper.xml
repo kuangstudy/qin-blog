@@ -6,7 +6,7 @@
 <mapper namespace="com.kuang.mapper.UserMapper">
 
     <select id="queryUserByName" resultType="User">
-    select * from qin_blog.user where name = #{name}
+    select * from user where name = #{name}
   </select>
 
 </mapper>

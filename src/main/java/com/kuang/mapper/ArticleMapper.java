@@ -21,5 +21,5 @@ public interface ArticleMapper {
     public int addArticle(Article article);
 
     //删除文章
-
+    public int delArticle(int id);
 }
