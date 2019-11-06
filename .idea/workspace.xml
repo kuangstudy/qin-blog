@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00874c85-a5a5-4c15-8f4a-529146bb9b21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="00874c85-a5a5-4c15-8f4a-529146bb9b21" name="Default" comment="更新了博客删除功能">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/editormd/layer/theme/default/loading-2.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/controller/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/建站日记.md" beforeDir="false" afterPath="$PROJECT_DIR$/建站日记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,14 +63,16 @@
     <session id="1243033918">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,6 +88,8 @@
           <entry key="role" value="2" />
           <entry key="say" value="2" />
           <entry key="tag" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="url" value="1" />
           <entry key="user" value="1" />
           <entry key="xml" value="9" />
           <entry key="yml" value="7" />
@@ -101,6 +103,7 @@
           <entry key="JAVA" value="39" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="9" />
           <entry key="YAML" value="7" />
@@ -108,20 +111,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="139" />
+          <entry key="html" value="408" />
           <entry key="java" value="175" />
           <entry key="js" value="6" />
           <entry key="md" value="70" />
+          <entry key="txt" value="13" />
           <entry key="xml" value="55" />
           <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="139" />
+          <entry key="HTML" value="408" />
           <entry key="JAVA" value="175" />
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="70" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="54" />
           <entry key="YAML" value="13" />
@@ -137,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/controller/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="247">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -155,7 +160,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="380">
               <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
@@ -163,7 +168,7 @@
                 <element signature="e#723#724#0" expanded="true" />
                 <element signature="e#779#780#0" expanded="true" />
                 <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,11 +192,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="461">
+              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -199,12 +204,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/建站日记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="230">
-                <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <first_editor relative-caret-position="1235">
+                <caret line="65" selection-start-line="65" selection-end-line="65" />
               </first_editor>
               <second_editor />
             </state>
@@ -214,7 +219,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/postblog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456">
+            <state relative-caret-position="171">
               <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
@@ -244,6 +249,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="baolingye &lt;57276578+baolingye@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -299,8 +309,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuang/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html" />
         <option value="$PROJECT_DIR$/建站日记.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html" />
       </list>
     </option>
   </component>
@@ -352,9 +362,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="375" />
-    <option name="y" value="85" />
-    <option name="width" value="1535" />
+    <option name="x" value="810" />
+    <option name="width" value="1265" />
     <option name="height" value="935" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -366,7 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,6 +485,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="editormd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="editormd" type="462c0819:PsiDirectoryNode" />
+              <item name="layer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="qinjiang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -497,6 +525,16 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="qinjiang" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qin-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="qinjiang" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qin-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -538,7 +576,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,7 +588,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572947748438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572971951378" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -564,21 +602,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\qin-blog\src\main\resources\static\editormd" />
       <recent name="D:\Project\qin-blog\src\main\resources\templates\views" />
       <recent name="D:\Project\qin-blog\src\main\resources" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\editormd\css" />
       <recent name="D:\Project\qin-blog\src\main\resources\static" />
-      <recent name="D:\Project\qin-blog\src\main\resources\static\editormd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kuang.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\qin-blog\src\main\resources\static\editormd" />
       <recent name="D:\Project\qin-blog" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang\js" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang\css" />
       <recent name="D:\Project\qin-blog\src\main\resources\static\qinjiang" />
-      <recent name="D:\Project\qin-blog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -693,7 +731,9 @@
       <workItem from="1572854802712" duration="1028000" />
       <workItem from="1572856811716" duration="4570000" />
       <workItem from="1572929779481" duration="115000" />
-      <workItem from="1572942610220" duration="5045000" />
+      <workItem from="1572942610220" duration="6379000" />
+      <workItem from="1572968031476" duration="3374000" />
+      <workItem from="1573013480362" duration="4406000" />
     </task>
     <task id="LOCAL-00001" summary="初始框架搭建">
       <created>1572681323997</created>
@@ -751,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572764760437</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新了博客删除功能">
+      <created>1572947774359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572947774359</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -763,7 +810,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81510000" />
+    <option name="totallyTimeSpent" value="90624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,7 +825,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.23123324" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.23793566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -788,7 +835,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3797654" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3797654" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,7 +846,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" weight="0.6480938" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3293919" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -860,23 +907,14 @@
     <MESSAGE value="初始框架搭建" />
     <MESSAGE value="Merge branch 'master' of https://github.com/kuangstudy/qin-blog" />
     <MESSAGE value="更新框架内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新框架内容" />
+    <MESSAGE value="更新了博客删除功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了博客删除功能" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://9fe43504-c784-4f94-bf12-b7ea63ee0f74/schema/qin_blog/table/video">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.jar!/org/hibernate/validator/internal/engine/constraintvalidation/ConstraintValidatorManager.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kuang/QinBlogApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1116,10 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding>
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,25 +1176,19 @@
         <state relative-caret-position="-1339" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/mapper/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+    <entry file="das://9fe43504-c784-4f94-bf12-b7ea63ee0f74/schema/qin_blog/table/article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/editormd/layer-v3.1.1/更新日志.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/editormd/layer-v3.1.1/文档/layer官网.url" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1171,34 +1199,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/postblog.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/service/impl/ArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9fe43504-c784-4f94-bf12-b7ea63ee0f74/schema/qin_blog/table/article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="380">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuang/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1212,10 +1231,27 @@
     <entry file="file://$PROJECT_DIR$/建站日记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="230">
-            <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <first_editor relative-caret-position="1235">
+            <caret line="65" selection-start-line="65" selection-end-line="65" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/postblog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

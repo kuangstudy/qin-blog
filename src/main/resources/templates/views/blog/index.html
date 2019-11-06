@@ -30,7 +30,7 @@
                                     <div class="ui teal  horizontal label" th:text="${article.getTag()}"></div>
                                     <a th:href="@{/blog/toArticle/}+${article.getId()}" th:text="${article.getTitle()}"></a>
                                 </div>
-                                <a class="ui teal  horizontal label" th:text="删除文章" style="cursor: pointer" th:href="@{/blog/del/}+${article.getId()}"></a>
+                                <a class="ui teal  horizontal label" th:text="删除文章" style="cursor: pointer" th:href="@{/blog/del/}+${article.getId()}" ></a>
                                 <div class="right">
                                     <a class="ui teal circular label">2</a>
                                 </div>
@@ -105,10 +105,27 @@
 
 <script th:src="@{/qinjiang/js/jquery-3.1.1.min.js}"></script>
 <script th:src="@{/qinjiang/js/semantic.min.js}"></script>
+<script th:src="@{/editormd/layer/layer.js}"></script>
 <script>
     //选项卡
     $('.menu .item').tab();
 </script>
 
+<script>
+    function delFunction(){
+        //询问框
+        layer.confirm('确认删除?', {
+            btn: ['删除','返回'] //按钮
+        }, function(){
+            layer.msg('删除成功', {icon: 1});
+        }, function(){
+            layer.msg('取消成功',{icon: 1})
+        });
+    }
+
+</script>
+
 </body>
 </html>
+
+
