@@ -77,8 +77,9 @@ public class BlogController {
         return "redirect:/blog/toBlogIndex";
     }
 
-    @RequestMapping("/blog/del/{id}")
-    public String delArticle(@PathVariable int id) {
+    //删除博客
+    @RequestMapping("/blog/del")
+    public String delArticle(int id) {
         articleService.delArticle(id);
         return "redirect:/blog/toBlogIndex";
     }

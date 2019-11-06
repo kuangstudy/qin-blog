@@ -30,7 +30,9 @@
                                     <div class="ui teal  horizontal label" th:text="${article.getTag()}"></div>
                                     <a th:href="@{/blog/toArticle/}+${article.getId()}" th:text="${article.getTitle()}"></a>
                                 </div>
-                                <a class="ui teal  horizontal label" th:text="删除文章" style="cursor: pointer" th:href="@{/blog/del/}+${article.getId()}" ></a>
+                                <a class="ui teal  horizontal label"
+                                   th:text="删除文章" style="cursor: pointer"
+                                   th:onclick="|javascript:delFunction(${article.getId()})|"></a>
                                 <div class="right">
                                     <a class="ui teal circular label">2</a>
                                 </div>
@@ -116,8 +118,10 @@
         //询问框
         layer.confirm('确认删除?', {
             btn: ['删除','返回'] //按钮
-        }, function(){
+        }, function(a_id){
+            $.post('/blog/del',{"id":a_id});
             layer.msg('删除成功', {icon: 1});
+            window.location.reload();
         }, function(){
             layer.msg('取消成功',{icon: 1})
         });
